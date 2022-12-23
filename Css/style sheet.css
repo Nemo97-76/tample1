@@ -30,7 +30,11 @@ body {
     text-decoration: none;
 }
 
+.nav:hover{
+    color: #091587;
+    text-decoration: underline;
 
+}
 .list {
     margin-left: 45px;
     float: left;
@@ -584,10 +588,8 @@ background-color: #f1faee;
 }
 
 .circle-text {
-    margin-top: 8px;
-    font-weight: 900;
-    font-size: 27px;
-    line-height: 30px;
+    margin-top:10%;
+    font-size: 25px;
     color: white;
 }
 
@@ -639,7 +641,7 @@ background-color: #f1faee;
 }
 
 .it2 {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .review-item {
