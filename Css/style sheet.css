@@ -724,6 +724,8 @@ background-color: #f1faee;
     left: 0;
     visibility: hidden;
     opacity: 0;
+    z-index: 3;
+
 }
 
 .team-item:hover .team-overlay {
@@ -757,19 +759,22 @@ background-color: #f1faee;
     padding-top: 15px;
     width: 40px;
     height: 40px;
-    background-color: #01153b;
     margin-left: auto;
-}
+    background-color: #8ba0c5;
 
+}
 
 .team-overlay a .face {
     color: #1755d2;
 }
 
 .team-overlay a .link {
-    color: #5d6f93;
+    color: #06090f;
 }
 
+.team-overlay a .tiwtt{
+    color: #1755d2;
+}
 .team-info {
     margin-top: 20px;
 }
@@ -856,6 +861,8 @@ margin: 30px 0px 0px 20px;
     font-size: 20px;
     color: #1755d2;
     text-decoration: none;
+    position: absolute;
+    z-index: 3;
 }
 /*///////////////////////////////////////////////////////*/
 .footer-icons {
